@@ -1,0 +1,64 @@
+AER850-Project 1 Results (Mehtab Singh 500960754)
+Step 3 Results:
+Correlation with Step: Y       0.294097
+X      -0.749724
+Z       0.192925
+Step    1.000000
+Name: Step, dtype: float64
+
+Step 4 Results
+Logistic Regression Results:
+Accuracy: 0.8488372093023255
+Classification Report:
+              precision    recall  f1-score   support
+
+           1       0.38      1.00      0.55         3
+           2       0.00      0.00      0.00         5
+           3       0.43      1.00      0.60         6
+           4       0.00      0.00      0.00         8
+           5       1.00      0.40      0.57         5
+           6       0.57      1.00      0.73         4
+           7       1.00      0.73      0.84        26
+           8       0.86      1.00      0.92        43
+           9       1.00      1.00      1.00        52
+          10       0.50      1.00      0.67         3
+          11       1.00      0.25      0.40         4
+          12       1.00      1.00      1.00         6
+          13       1.00      1.00      1.00         7
+
+    accuracy                           0.85       172
+   macro avg       0.67      0.72      0.64       172
+weighted avg       0.84      0.85      0.82       172
+
+
+Random Forest Regressor Results:
+Mean Squared Error: 0.0195796511627907
+Mean Absolute Error: 0.02994186046511628
+R-squared (R2): 0.996812908053503
+
+Decision Tree Results:
+Accuracy: 0.9883720930232558
+Classification Report:               precision    recall  f1-score   support
+
+           1       1.00      1.00      1.00         3
+           2       1.00      1.00      1.00         5
+           3       1.00      1.00      1.00         6
+           4       1.00      1.00      1.00         8
+           5       0.83      1.00      0.91         5
+           6       1.00      0.75      0.86         4
+           7       1.00      1.00      1.00        26
+           8       1.00      1.00      1.00        43
+           9       1.00      1.00      1.00        52
+          10       1.00      1.00      1.00         3
+          11       1.00      1.00      1.00         4
+          12       0.86      1.00      0.92         6
+          13       1.00      0.86      0.92         7
+
+    accuracy                           0.99       172
+   macro avg       0.98      0.97      0.97       172
+weighted avg       0.99      0.99      0.99       172
+
+
+
+Step 6 Results:
+ [ 5  8 13  6  4]
